@@ -1,0 +1,26 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000u\u0000r\u0000l\u0000s\u0000h\u0000o\u0000r\u0000t\u0000e\u0000n\u0000e\u0000r\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishnu2k5/urlshortener.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vishnu2k5/urlshortener/issues"
+  },
+  "homepage": "https://github.com/vishnu2k5/urlshortener#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.18.2",
+    "nodemon": "^3.1.10"
+  }
+}
