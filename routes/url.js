@@ -1,5 +1,7 @@
 const express = require('express');
-const router = express.Router();
+// enable mergeParams so params from the parent route (e.g. :shortUrl)
+// are available inside this router (req.params.shortUrl)
+const router = express.Router({ mergeParams: true });
 const ShortUrl = require('../models/shorturl');
 
 const {handleGenerateShortUrl, handelgetredirect} = require('../controllers/url');
